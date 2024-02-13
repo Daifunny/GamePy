@@ -10,7 +10,8 @@ while r != "":
       r = file.readline()
 file.close()
 point = [0,0];data = [0,7,0,5000]
-level = [0];key = '';g,g1 = [],{}
+level = [0];key = ''
+g,g1 = [],{}
 memory = [0,0]
 __human__ = [
 """
@@ -545,3 +546,4 @@ def game():
         return ""
 if __name__ == "__main__":
     game()
+
